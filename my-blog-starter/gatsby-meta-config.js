@@ -1,16 +1,16 @@
 module.exports = {
-  title: `Blog`,
+  title: `Ji Yeong Blog`,
   description: `Blog posted about ...`,
   author: `Ji Yeong Choe`,
-  introduction: `I explain with words and code. I explain with words and code. I explain with words and code.`,
+  introduction: `안녕하세요 !`,
   siteUrl: `https://jiyeongj.github.io/`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
-    github: ``, // Your GitHub account
+    github: `https://github.com/jiyeongj`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
-    instagram: ``, // Your Instagram account
+    instagram: `https://www.instagram.com/choe_jyeong`, // Your Instagram account
   },
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blog`],
@@ -22,7 +22,7 @@ module.exports = {
     countOfInitialPost: 10, // Config your initial count of post
   },
   sponsor: {
-    buyMeACoffeeId: 'jbee',
+    buyMeACoffeeId: '',
   },
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
