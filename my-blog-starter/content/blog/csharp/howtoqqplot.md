@@ -1,7 +1,7 @@
 ---
 title: 'C#으로 Q-Q Plot 그리기'
 date: 2022-04-20 16:16:16
-category: 'c#'
+category: 'C#'
 draft: false
 ---
 
