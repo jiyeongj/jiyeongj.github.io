@@ -74,3 +74,5 @@ var yData = numbers;
 ```
 
 만들어진 `xData` 및 `yData`로 차트 라이브러리를 이용해 Q-Q Plot을 그리면 됩니다.
+
+![](./images/qqplot.png)
