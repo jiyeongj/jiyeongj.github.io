@@ -1,13 +1,12 @@
 ---
 title: 'C#으로 Q-Q Plot 그리기'
-date: 2022-04-18 16:16:16
+date: 2022-04-20 16:16:16
 category: 'c#'
 draft: false
 ---
 
-# C#으로 Q-Q Plot 그리기
 
-## Q-Q Plot을 그리는 방법
+## Q-Q Plot 그리는 방법
 
 Q-Q Plot을 그리는 방법은 [엑셀에서 Q-Q 플롯 그리기](https://loadtoexcelmaster.tistory.com/entry/%EC%97%91%EC%85%80%EC%97%90%EC%84%9C-Q-Q%ED%94%8C%EB%A1%AFQ-Q-Plot-%EA%B7%B8%EB%A6%AC%EA%B8%B0)를 참고하였습니다.
 
@@ -22,8 +21,6 @@ Q-Q Plot을 그리는 방법은 [엑셀에서 Q-Q 플롯 그리기](https://load
    - MATH.NET NuGet의 InverseCumulativeDistribution()사용
        - [InverseCumulativeDistribution](https://numerics.mathdotnet.com/api/MathNet.Numerics.Distributions/Normal.htm#InverseCumulativeDistribution)
 1. X축은 5번(z-score)의 데이터, Y축(정렬한 데이터)은 2번의 데이터
-
-X축은 5번의 데이터, Y축은 2번의 데이터
 
 ## Code
 
