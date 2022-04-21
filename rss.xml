@@ -1,4 +1,139 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ji Yeong Blog]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://jiyeongj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 20 Apr 2022 07:46:15 GMT</lastBuildDate><item><title><![CDATA[C#으로 Q-Q Plot 그리기]]></title><description><![CDATA[Q-Q Plot 그리는 방법 Q-Q Plot을 그리는 방법은 엑셀에서 Q-Q 플롯 그리기를 참고하였습니다. 위 내용을 요약하면 아래 순서와 같습니다. CSV 테스트 데이터(QQTest.csv) 읽어온다. 오름차순 정렬 순위(Rank…]]></description><link>https://jiyeongj.github.io/csharp/howtoqqplot/</link><guid isPermaLink="false">https://jiyeongj.github.io/csharp/howtoqqplot/</guid><pubDate>Wed, 20 Apr 2022 16:16:16 GMT</pubDate><content:encoded>&lt;h2 id=&quot;q-q-plot-그리는-방법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#q-q-plot-%EA%B7%B8%EB%A6%AC%EB%8A%94-%EB%B0%A9%EB%B2%95&quot; aria-label=&quot;q q plot 그리는 방법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Q-Q Plot 그리는 방법&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ji Yeong Blog]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://jiyeongj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 21 Apr 2022 05:51:25 GMT</lastBuildDate><item><title><![CDATA[주니어 개발자의 오픈소스 기여하기 - (1)]]></title><description><![CDATA[1. 오픈소스에 기여하는 방법 오픈소스에 기여하는 방법에도 여러 방법이 있다. 대표적인 방법 세 가지만 적어보자면 ..! 문서화(Documentation…]]></description><link>https://jiyeongj.github.io/development/howto_opensource_contribution/</link><guid isPermaLink="false">https://jiyeongj.github.io/development/howto_opensource_contribution/</guid><pubDate>Thu, 21 Apr 2022 14:14:14 GMT</pubDate><content:encoded>&lt;h2 id=&quot;1-오픈소스에-기여하는-방법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%EC%97%90-%EA%B8%B0%EC%97%AC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95&quot; aria-label=&quot;1 오픈소스에 기여하는 방법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 오픈소스에 기여하는 방법&lt;/h2&gt;
+&lt;p&gt;오픈소스에 기여하는 방법에도 여러 방법이 있다. 대표적인 방법 세 가지만 적어보자면 ..!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;문서화(Documentation)에 기여하기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;영어 문서를 우리말로 번역하여 기여하는 것도 좋은 방법이다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;이슈 등록하기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;버그를 발견하여 이슈에 등록할 수 있다. 문서에 없는 내용을 질문하는 내용의 이슈를 올릴 수도 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;코드에 기여하기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;코드를 직접 작성하여 Pull Request을 이용해 코드에 기여할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;2-처음으로-오픈소스에-기여해-본-경험&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%EC%B2%98%EC%9D%8C%EC%9C%BC%EB%A1%9C-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%EC%97%90-%EA%B8%B0%EC%97%AC%ED%95%B4-%EB%B3%B8-%EA%B2%BD%ED%97%98&quot; aria-label=&quot;2 처음으로 오픈소스에 기여해 본 경험 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 처음으로 오픈소스에 기여해 본 경험&lt;/h2&gt;
+&lt;p&gt;때는 2018년 11월, 신입사원으로 입사한지 5개월차였던 때였다.
+당시 진행중이던 프로젝트에서 &lt;a href=&quot;https://github.com/roslynpad/roslynpad&quot;&gt;Roslyn Pad&lt;/a&gt;를 사용하고 있었다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Roslyn Pad는 ‘Roslyn 및 Avalon Edit 기반 크로스 플랫폼 C# 편집기’이다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;이슈-등록하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%B4%EC%8A%88-%EB%93%B1%EB%A1%9D%ED%95%98%EA%B8%B0&quot; aria-label=&quot;이슈 등록하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;이슈 등록하기&lt;/h3&gt;
+&lt;p&gt;진행 중에 컨트롤을 Custom하는 기능이 동작하지 않아서 문의 이슈를 남겼던 적 있다.
+해당 내용이 궁금하다면 &lt;a href=&quot;https://github.com/roslynpad/roslynpad/issues/221&quot;&gt;링크&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;코드-기여하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BD%94%EB%93%9C-%EA%B8%B0%EC%97%AC%ED%95%98%EA%B8%B0&quot; aria-label=&quot;코드 기여하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;코드 기여하기&lt;/h3&gt;
+&lt;p&gt;RoslynPad.exe를 &lt;strong&gt;커맨드 상으로 실행할 때 특정 .csx 파일을 지정하여 실행하는 기능&lt;/strong&gt;이 필요했다.
+이것 또한 먼저 문의 이슈를 남겼다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 915px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsSAAALEgHS3X78AAABbElEQVQoz42SS3LbMBBEcf99DpKrZBcXIzuRaNMCCYIABv+PG1AilReppOuxa0jVUD0YspfTm5SKr3xou/L1bXnvukJ8WZbzZZ7n18v8euVcKZ1San/Evn5Z5udDk9JKd7TBRUSGTPA+hnhTAinVUmp7iJGJPhYfU0glpAyPuaRSw/Bc250ESou5dsZP7NvTNMk0CXeS4YeMJxmn3T/rfHHtbNsvQA9+Uvu++afNTzLK2FgIUcoDwbwPqAfhXqeMP2if6IL3LCylzPnaxfm+78dxbJvYxQ7w0pxz+4swPcu1krVKG2tdxnnU2v5Po7kUImu0gZRScIwQRnQU/2yuPkTMCMde4NZ5ch5BnPdI8pnH8L35vCyGLFJr6zRZj3WViiWl3B1rwwN4L2IGGFBIJLQ4S6YNXfFhrRtft3dcOKpdwgFu+CZGLVYhxH6Qc+jBDuDYAyulyEPdORQ+L3vDEOHVv+txFnXEvuVG4wfLu7ZDPrOdcAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;  images roslynpad issue1&quot;
+        title=&quot;  images roslynpad issue1&quot;
+        src=&quot;/static/454755dab9ff0d6fdfcc6bffb5bb9d4c/4255a/roslynpad_issue1.png&quot;
+        srcset=&quot;/static/454755dab9ff0d6fdfcc6bffb5bb9d4c/5a46d/roslynpad_issue1.png 300w,
+/static/454755dab9ff0d6fdfcc6bffb5bb9d4c/0a47e/roslynpad_issue1.png 600w,
+/static/454755dab9ff0d6fdfcc6bffb5bb9d4c/4255a/roslynpad_issue1.png 915w&quot;
+        sizes=&quot;(max-width: 915px) 100vw, 915px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;내가 원하던 기능은 구현되어 있지 않다는 답변을 받게 되었고 그렇게 RoslynPad 코드에 기여하게 되었다.&lt;/p&gt;
+&lt;p&gt;코드에 기여하려면 아래와 같은 순서로 진행하면 된다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;RoslynPad Github 레포지터리 fork&lt;/li&gt;
+&lt;li&gt;fork한 내 레포지터리에서 git Clone&lt;/li&gt;
+&lt;li&gt;수정하고 싶은 코드 수정 후 git add &gt; git commit &gt; git push&lt;/li&gt;
+&lt;li&gt;Pull Request 버튼 클릭&lt;/li&gt;
+&lt;li&gt;Pull Request 내용 작성&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;RoslynPad 레포지터리를 fork 한 뒤에 아래와 같이 Pull Request 내용을 작성하여 이슈를 등록하였다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 911px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 35%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAIAAACHqfpvAAAACXBIWXMAAAsSAAALEgHS3X78AAABDUlEQVQY022QTW7DIBCFff8z9BTdtKtWyqLtGaoqamIb8E+dOIAZZsD0OVE3UUefRvBmgDdU+692/6l+xrNSGvT9qHR3qNtWG226Rnd1qw7Humla0KJHG+c8BSqlVO+Pp6eHUX+7EBfvlxDC5LmeZfTiAjezaCsWBb8Qxbyu4Bbb4ZTK4kJYfE4p5ySRUkrMkSNBiUQMIpVr911Ub6/Pejprx8axtqxsNF66JfcgZOMTcrcgrwMVgJKyrJ1AqT52L81wOk7e2Dh46b0MIZ2k3MNluoKqulDnZKRc4fUkMs8WTpkCHMNkihH+wc0zdKz/sZ3XHCVdrGURimhkwrws2CLjwk3f/kAw9Mb6Rym/UZqQ/0nlF8gAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;  images roslynpad pr1&quot;
+        title=&quot;  images roslynpad pr1&quot;
+        src=&quot;/static/e1e9a65929a5e98ce9a3f0d4034456fb/636c2/roslynpad_pr1.png&quot;
+        srcset=&quot;/static/e1e9a65929a5e98ce9a3f0d4034456fb/5a46d/roslynpad_pr1.png 300w,
+/static/e1e9a65929a5e98ce9a3f0d4034456fb/0a47e/roslynpad_pr1.png 600w,
+/static/e1e9a65929a5e98ce9a3f0d4034456fb/636c2/roslynpad_pr1.png 911w&quot;
+        sizes=&quot;(max-width: 911px) 100vw, 911px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;내가 등록한 PR에 대해 두 명의 선생님들이 리뷰를 달아주셨다. &lt;code class=&quot;language-text&quot;&gt;aelij&lt;/code&gt;가 RoslynPad의 maintainer이다..!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 910px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 44.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsSAAALEgHS3X78AAABJElEQVQoz3VQW5KDMAzj/ofZG+xV+tUCLXlAXnbsBlah3elXjfDIEzuxNPz8/s6L2UJaQ9piBiksLIr8Qf2QTGz95tFKPGwhEHOMMaUUUwZyoUK07/txHEh7j6MXZ6DQZ4/W2oBaRI21xjqD36+LtYs5y16d4VdrnfMexDmXUi65qOqAq5jr9TZeb9M43Rdjxmm+jfN8f2AYK9Ra0VBKwUqFmIjw7LnO3l/GArVK5d70yhCiose3+NcwTJcLtBbClDKuEK2dYLaJPvWEvNFe0Gcj7p2DH68Yfhhn3Wq7qA1wfgsxJ5JYFEikCSRTwvKFUiacI78ME7gBhXCcoYo7ulRpLDty1b2C9L3ODyKlvg0TVVgBP0KIeHFdA0ju/nSX0PpN+x8XjwfbQKGdVwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;  images roslynpad pr2&quot;
+        title=&quot;  images roslynpad pr2&quot;
+        src=&quot;/static/dadb9e5418f6ab3e97c799ddb49b615a/c6bbc/roslynpad_pr2.png&quot;
+        srcset=&quot;/static/dadb9e5418f6ab3e97c799ddb49b615a/5a46d/roslynpad_pr2.png 300w,
+/static/dadb9e5418f6ab3e97c799ddb49b615a/0a47e/roslynpad_pr2.png 600w,
+/static/dadb9e5418f6ab3e97c799ddb49b615a/c6bbc/roslynpad_pr2.png 910w&quot;
+        sizes=&quot;(max-width: 910px) 100vw, 910px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;리뷰를 토대로 코드를 좀더 수정하여 무사히 Master에 Merge까지 성공하였다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 909px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 16.666666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAIAAAAcOLh5AAAACXBIWXMAAAsSAAALEgHS3X78AAAAVUlEQVQI15WKQQ6AIAzA+P9nfIH+xotGYAMZMGHO6FUTmx56qBnGadksYLz1GPdUKPObiYp16HzQMA6AKHsIgKHUely01vqHzM9kRERrXi0Sa3f5wQnFcK78448/qwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;  images roslynpad pr3&quot;
+        title=&quot;  images roslynpad pr3&quot;
+        src=&quot;/static/60cc2c1be98cafac9d27ba8f63484b57/b3ad9/roslynpad_pr3.png&quot;
+        srcset=&quot;/static/60cc2c1be98cafac9d27ba8f63484b57/5a46d/roslynpad_pr3.png 300w,
+/static/60cc2c1be98cafac9d27ba8f63484b57/0a47e/roslynpad_pr3.png 600w,
+/static/60cc2c1be98cafac9d27ba8f63484b57/b3ad9/roslynpad_pr3.png 909w&quot;
+        sizes=&quot;(max-width: 909px) 100vw, 909px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Master에 Merge가 완료되고 수정해줘서 고맙다는 인사를 받을 수 있었고, 뿌듯함도 얻을 수 있었다. ✌🏻
+회사에서 소통하는 개발자 외에 다른 커뮤니티의 개발자들과 소통하고 개발할 수 있는 것이 오픈 소스만의 매력이다.&lt;/p&gt;
+&lt;p&gt;해당 Pull Request 내용 및 코드가 궁금하다면 &lt;a href=&quot;https://github.com/roslynpad/roslynpad/pull/223&quot;&gt;링크&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;다음 글은 버그에 대한 오픈소스 이슈 작성에 대해 써보려 한다 !!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[C#으로 Q-Q Plot 그리기]]></title><description><![CDATA[Q-Q Plot 그리는 방법 Q-Q Plot을 그리는 방법은 엑셀에서 Q-Q 플롯 그리기를 참고하였습니다. 위 내용을 요약하면 아래 순서와 같습니다. CSV 테스트 데이터(QQTest.csv) 읽어온다. 오름차순 정렬 순위(Rank…]]></description><link>https://jiyeongj.github.io/csharp/howtoqqplot/</link><guid isPermaLink="false">https://jiyeongj.github.io/csharp/howtoqqplot/</guid><pubDate>Wed, 20 Apr 2022 16:16:16 GMT</pubDate><content:encoded>&lt;h2 id=&quot;q-q-plot-그리는-방법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#q-q-plot-%EA%B7%B8%EB%A6%AC%EB%8A%94-%EB%B0%A9%EB%B2%95&quot; aria-label=&quot;q q plot 그리는 방법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Q-Q Plot 그리는 방법&lt;/h2&gt;
 &lt;p&gt;Q-Q Plot을 그리는 방법은 &lt;a href=&quot;https://loadtoexcelmaster.tistory.com/entry/%EC%97%91%EC%85%80%EC%97%90%EC%84%9C-Q-Q%ED%94%8C%EB%A1%AFQ-Q-Plot-%EA%B7%B8%EB%A6%AC%EA%B8%B0&quot;&gt;엑셀에서 Q-Q 플롯 그리기&lt;/a&gt;를 참고하였습니다.&lt;/p&gt;
 &lt;p&gt;위 내용을 요약하면 아래 순서와 같습니다.&lt;/p&gt;
 &lt;ol&gt;
