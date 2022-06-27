@@ -6,11 +6,11 @@ module.exports = {
   siteUrl: `https://jiyeongj.github.io/`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
-    github: `https://github.com/jiyeongj`, // Your GitHub account
+    github: `jiyeongj`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
-    instagram: `https://www.instagram.com/choe_jyeong`, // Your Instagram account
+    instagram: `choe_jyeong`, // Your Instagram account
   },
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blog`],
