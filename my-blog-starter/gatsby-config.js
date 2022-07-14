@@ -3,6 +3,7 @@ const metaConfig = require('./gatsby-meta-config')
 module.exports = {
   siteMetadata: metaConfig,
   plugins: [
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -96,8 +97,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://your-blog.netlify.app',
-        sitemap: 'https://your-blog.netlify.app/sitemap.xml',
+        host: 'https://jiyeongj.github.io/',
+        sitemap: 'https://jiyeongj.github.io/sitemap.xml',
         policy: [
           {
             userAgent: '*',
