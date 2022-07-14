@@ -19,6 +19,10 @@ export function Head({ description, lang, meta, keywords, title }) {
             titleTemplate={`%s | ${data.site.siteMetadata.title}`}
             meta={[
               {
+                name: 'google-site-verification',
+                content: '4tUvBCKgTtp548J2mCvtuYJE-VR0GPMxRlaXViPy-qU',
+              },
+              {
                 name: `description`,
                 content: metaDescription,
               },
