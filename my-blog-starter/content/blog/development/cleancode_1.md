@@ -5,7 +5,9 @@ category: 'development'
 draft: false
 ---
 
+
 ![](.\images\cleancode.jpg)
+
 
 # 1. 깨끗한 코드
 
