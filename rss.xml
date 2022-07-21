@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ji Yeong Blog]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://jiyeongj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 21 Jul 2022 05:35:58 GMT</lastBuildDate><item><title><![CDATA[[Clean Code] 1. 깨끗한 코드]]></title><description><![CDATA[1. 깨끗한 코드 나쁜 코드 우리 모두는 자신이 잔 쓰레기 코드를 쳐다보며 나중에 손보겠다고 생각한 경험이 있다. 르블랑의 법칙(leblanc’s law…]]></description><link>https://jiyeongj.github.io/development/cleancode_1/</link><guid isPermaLink="false">https://jiyeongj.github.io/development/cleancode_1/</guid><pubDate>Thu, 21 Jul 2022 14:14:14 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ji Yeong Blog]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://jiyeongj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 21 Jul 2022 05:46:38 GMT</lastBuildDate><item><title><![CDATA[[Clean Code] 2. 의미 있는 이름]]></title><link>https://jiyeongj.github.io/development/cleancode_2/</link><guid isPermaLink="false">https://jiyeongj.github.io/development/cleancode_2/</guid><pubDate>Thu, 21 Jul 2022 14:14:14 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 275px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 132%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAaABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHuqRKlZN5Bo//EABYQAQEBAAAAAAAAAAAAAAAAAAEgEP/aAAgBAQABBQLCGv/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABQQAQAAAAAAAAAAAAAAAAAAADD/2gAIAQEABj8CT//EABoQAQEBAAMBAAAAAAAAAAAAAAABESBRcYH/2gAIAQEAAT8hta13avB9T1WI/9oADAMBAAIAAwAAABAcxEP/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAWEQEBAQAAAAAAAAAAAAAAAAAQARH/2gAIAQIBAT8Qwp//xAAfEAACAgEEAwAAAAAAAAAAAAABEQAhQRAxUWFxgaH/2gAIAQEAAT8QICbzzH5+ygu5lRlS9wNWn1phnqEkNH4UKsoIIsQhdDeALrM//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;  images cleancode&quot;
+        title=&quot;  images cleancode&quot;
+        src=&quot;/static/304dd69db72bbe606908408bf30fc416/35f54/cleancode.jpg&quot;
+        srcset=&quot;/static/304dd69db72bbe606908408bf30fc416/35f54/cleancode.jpg 275w&quot;
+        sizes=&quot;(max-width: 275px) 100vw, 275px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[Clean Code] 1. 깨끗한 코드]]></title><description><![CDATA[1. 깨끗한 코드 나쁜 코드 우리 모두는 자신이 잔 쓰레기 코드를 쳐다보며 나중에 손보겠다고 생각한 경험이 있다. 르블랑의 법칙(leblanc’s law…]]></description><link>https://jiyeongj.github.io/development/cleancode_1/</link><guid isPermaLink="false">https://jiyeongj.github.io/development/cleancode_1/</guid><pubDate>Thu, 21 Jul 2022 14:14:14 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 458px;&quot;
     &gt;
