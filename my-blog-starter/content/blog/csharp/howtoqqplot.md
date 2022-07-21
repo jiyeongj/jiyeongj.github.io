@@ -7,7 +7,7 @@ draft: false
 ---
 
 
-## Q-Q Plot 그리는 방법
+## Q-Q Plot 그리기
 
 Q-Q Plot을 그리는 방법은 [엑셀에서 Q-Q 플롯 그리기](https://loadtoexcelmaster.tistory.com/entry/%EC%97%91%EC%85%80%EC%97%90%EC%84%9C-Q-Q%ED%94%8C%EB%A1%AFQ-Q-Plot-%EA%B7%B8%EB%A6%AC%EA%B8%B0)를 참고하였습니다.
 

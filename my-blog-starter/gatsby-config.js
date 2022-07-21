@@ -3,7 +3,6 @@ const metaConfig = require('./gatsby-meta-config')
 module.exports = {
   siteMetadata: metaConfig,
   plugins: [
-    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
