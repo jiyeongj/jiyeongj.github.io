@@ -8,8 +8,33 @@ draft: false
 
 ![](.\images\cleancode.jpg)
 
+- 클린 코드 책을 읽으며, 내용을 요약 정리한 글입니다.
+
 
 # 1. 깨끗한 코드
+
+
+```js{3,4,5,6,7}
+import React from 'react'
+
+const TEMPLATE = 'gatsby-starter-bee'
+
+class Foo extends React.Component {
+  handleClick = val => {
+    if (val === 'bar') {
+      return 1
+    } else if (val !== 'zoo') {
+      return 2
+    }
+    console.log(`clicked`)
+    return 3
+  }
+
+  render() {
+    return <div>Welcome, Gatsby, ${TEMPLATE}</div>
+  }
+}
+```
 
 ## 나쁜 코드
 
