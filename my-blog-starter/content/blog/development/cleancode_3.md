@@ -184,6 +184,7 @@ public class UserValidator {
 
 - try/catch 블록을 별도 함수로 뽑아내는 것이 좋다.
     - 정상 동작과 오류 처리 동작을 분리한다.
+    
     ```java
     public void delete(Page page) {
         try {
